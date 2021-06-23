@@ -39,13 +39,13 @@ List of packages in ps-nlp-tensorflow
   :target: https://quay.io/repository/thoth-station/ps-nlp-tensorflow?tab=tags
   :alt: Quay - Build
 
-  .. code-block:: python
+.. code-block:: python
 
-      - nltk
-      - gensim
-      - keras
-      - spacy
-      - tensorflow
+    - nltk
+    - gensim
+    - keras
+    - spacy
+    - tensorflow
 
 
 List of packages in ps-nlp-tensorflow-gpu
@@ -55,13 +55,13 @@ List of packages in ps-nlp-tensorflow-gpu
   :target: https://quay.io/repository/thoth-station/ps-nlp-tensorflow-gpu?tab=tags
   :alt: Quay - Build
 
-  .. code-block:: python
+.. code-block:: python
 
-      - nltk
-      - gensim
-      - keras
-      - spacy
-      - tensorflow-gpu
+    - nltk
+    - gensim
+    - keras
+    - spacy
+    - tensorflow-gpu
 
 
 List of packages in ps-nlp-pytorch
@@ -71,11 +71,11 @@ List of packages in ps-nlp-pytorch
   :target: https://quay.io/repository/thoth-station/ps-nlp-pytorch?tab=tags
   :alt: Quay - Build
 
-  .. code-block:: python
+.. code-block:: python
 
-      - nltk
-      - gensim
-      - spacy
-      - torch
-      - torchvision
+    - nltk
+    - gensim
+    - spacy
+    - torch
+    - torchvision
 
