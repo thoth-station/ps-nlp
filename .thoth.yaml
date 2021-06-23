@@ -3,6 +3,13 @@ tls_verify: true
 requirements_format: pipenv
 
 runtime_environments:
+  - name: ps-nlp
+    operating_system:
+      name: ubi
+      version: "8"
+    python_version: "3.8"
+    recommendation_type: latest
+
   - name: ps-nlp-pytorch
     operating_system:
       name: ubi

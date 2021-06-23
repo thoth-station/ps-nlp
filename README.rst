@@ -78,4 +78,3 @@ List of packages in ps-nlp-pytorch
     - spacy
     - torch
     - torchvision
-

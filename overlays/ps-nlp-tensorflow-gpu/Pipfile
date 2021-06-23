@@ -8,7 +8,9 @@ nltk = "*"
 gensim = "*"
 spacy = "*"
 keras = "*"
+transformers = "*"
 tensorflow-gpu = ">=2.0.0"
+jupyter-tensorboard = "*"
 
 [dev-packages]
 

@@ -1,0 +1,28 @@
+#!/bin/bash
+
+set -x
+set -eo pipefail
+
+# Execute original assemble script.
+/opt/app-root/builder/assemble
+
+# Activate ipywidgets extension.
+if python -c 'import pkgutil; exit(not pkgutil.find_loader("ipywidgets"))'&> /dev/null; then
+  jupyter nbextension enable --py widgetsnbextension --sys-prefix
+fi
+
+# Activate tensorboard extension
+if python -c 'import pkgutil; exit(not pkgutil.find_loader("jupyter_tensorboard"))' &> /dev/null; then
+  jupyter tensorboard enable --sys-prefix
+  jupyter nbextension enable --sys-prefix jupyter_tensorboard/tree
+  jupyter serverextension enable jupyter_tensorboard --sys-prefix
+fi
+
+jupyter lab build
+
+# Make sure the S2I source directory is empty as we will use the image
+# produced to run further S2I builds
+(shopt -s dotglob ; rm -rf ${APP_ROOT}/src/*)
+
+# Fix up permissions.
+fix-permissions /opt/app-root
