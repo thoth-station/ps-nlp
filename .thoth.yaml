@@ -1,0 +1,41 @@
+host: khemenu.thoth-station.ninja
+tls_verify: true
+requirements_format: pipenv
+
+runtime_environments:
+  - name: ps-nlp-pytorch
+    operating_system:
+      name: ubi
+      version: "8"
+    python_version: "3.8"
+    recommendation_type: latest
+
+  - name: ps-nlp-tensorflow
+    operating_system:
+      name: ubi
+      version: "8"
+    python_version: "3.8"
+    recommendation_type: latest
+
+  - name: ps-nlp-tensorflow-gpu
+    operating_system:
+      name: ubi
+      version: "8"
+    python_version: "3.8"
+    recommendation_type: latest
+
+managers:
+  - name: update
+    configuration:
+      labels: [bot]
+  - name: info
+  - name: version
+    configuration:
+      maintainers:
+        - goern
+        - harshad16
+        - pacospace
+      assignees:
+        - sesheta
+      labels: [bot]
+      changelog_file: true
