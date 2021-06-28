@@ -48,22 +48,6 @@ List of packages in ps-nlp-tensorflow
     - tensorflow
 
 
-List of packages in ps-nlp-tensorflow-gpu
-=========================================
-
-.. image:: https://quay.io/repository/thoth-station/ps-nlp-tensorflow-gpu/status
-  :target: https://quay.io/repository/thoth-station/ps-nlp-tensorflow-gpu?tab=tags
-  :alt: Quay - Build
-
-.. code-block:: python
-
-    - nltk
-    - gensim
-    - keras
-    - spacy
-    - tensorflow-gpu
-
-
 List of packages in ps-nlp-pytorch
 ==================================
 
