@@ -1,39 +1,10 @@
-Predicted Stack for Natural Language Processing Applications
---------------------------------------------------------
+Predicted Stacks for Natural Language Processing Applications
+-------------------------------------------------------------
 
-This custom images contains Natural Languages Processing packages for Data Science usage.
-
-It is using some of the packages from `Generic Data Science Image <https://github.com/thoth-station/s2i-generic-data-science-notebook>`__:
-
-.. code-block:: python
-
-    - beautifulsoup4
-    - bokeh
-    - boto3
-    - cloudpickle
-    - cython
-    - dask
-    - dill
-    - distributed
-    - h5py
-    - ipywidgets
-    - kafka-python
-    - matplotlib
-    - numpy
-    - pandas
-    - plotly
-    - pyarrow
-    - s3fs
-    - scikit-image
-    - scikit-learn
-    - scipy
-    - seaborn
-    - sqlalchemy
-    - statsmodels
-
+The images described here are built with Thoth Predicted Stacks and contains Natural Languages Processing packages for Data Science usage.
 
 List of packages in ps-nlp
-=====================================
+==========================
 
 .. image:: https://quay.io/repository/thoth-station/ps-nlp/status
   :target: https://quay.io/repository/thoth-station/ps-nlp?tab=tags
@@ -82,3 +53,36 @@ List of packages in ps-nlp-pytorch
     - torch
     - torchvision
     - jupyter-tensorboard
+
+
+Generic data science packages
+=============================
+
+All the above images are built from `Generic Data Science Image <https://github.com/thoth-station/s2i-generic-data-science-notebook>`__,
+therefore they contain also the following packages:
+
+.. code-block:: python
+
+    - beautifulsoup4
+    - bokeh
+    - boto3
+    - cloudpickle
+    - cython
+    - dask
+    - dill
+    - distributed
+    - h5py
+    - ipywidgets
+    - kafka-python
+    - matplotlib
+    - numpy
+    - pandas
+    - plotly
+    - pyarrow
+    - s3fs
+    - scikit-image
+    - scikit-learn
+    - scipy
+    - seaborn
+    - sqlalchemy
+    - statsmodels
