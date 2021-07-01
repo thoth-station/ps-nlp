@@ -32,6 +32,21 @@ It is using some of the packages from `Generic Data Science Image <https://githu
     - statsmodels
 
 
+List of packages in ps-nlp
+=====================================
+
+.. image:: https://quay.io/repository/thoth-station/ps-nlp/status
+  :target: https://quay.io/repository/thoth-station/ps-nlp?tab=tags
+  :alt: Quay - Build
+
+.. code-block:: python
+
+    - nltk
+    - gensim
+    - spacy
+    - transformers
+
+
 List of packages in ps-nlp-tensorflow
 =====================================
 
@@ -43,9 +58,11 @@ List of packages in ps-nlp-tensorflow
 
     - nltk
     - gensim
-    - keras
     - spacy
+    - keras
+    - transformers
     - tensorflow
+    - jupyter-tensorboard
 
 
 List of packages in ps-nlp-pytorch
@@ -60,5 +77,8 @@ List of packages in ps-nlp-pytorch
     - nltk
     - gensim
     - spacy
+    - transformers
+    - tensorboard
     - torch
     - torchvision
+    - jupyter-tensorboard
