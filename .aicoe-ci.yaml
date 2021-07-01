@@ -28,12 +28,3 @@ overlays:
       registry-org: thoth-station
       registry-project: ps-nlp-tensorflow
       registry-secret: thoth-station-thoth-pusher-secret
-
-  - name: ps-nlp-tensorflow-gpu
-    build:
-      base-image: "quay.io/thoth-station/s2i-generic-data-science-notebook:v0.0.4"
-      build-stratergy: Source
-      registry: quay.io
-      registry-org: thoth-station
-      registry-project: ps-nlp-tensorflow-gpu
-      registry-secret: thoth-station-thoth-pusher-secret

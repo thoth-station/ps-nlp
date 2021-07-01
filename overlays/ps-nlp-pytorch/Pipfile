@@ -7,8 +7,11 @@ name = "pypi"
 nltk = "*"
 gensim = "*"
 spacy = "*"
+transformers = "*"
+tensorboard = "<2.0"
 torch  = "*"
 torchvision= "*"
+jupyter-tensorboard = "*"
 
 [dev-packages]
 
