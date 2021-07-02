@@ -14,3 +14,9 @@ all the things that you see...
 ### Bug Fixes
 * fix indentation
 * fix README style
+
+## Release 0.1.1 (2021-07-02T06:18:20)
+### Features
+* Add badge
+### Improvements
+* updated the base image for generic ds v0.0.5
