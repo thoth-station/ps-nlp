@@ -1,7 +1,7 @@
-Predicted Stacks for Natural Language Processing Applications
--------------------------------------------------------------
+Predictable Stacks for Natural Language Processing Applications
+---------------------------------------------------------------
 
-The images described here are built with Thoth Predicted Stacks and contains Natural Languages Processing packages for Data Science usage.
+The images described here are built with Thoth Predictable Stacks and contains Natural Languages Processing packages for Data Science usage.
 
 .. image:: https://img.shields.io/github/v/tag/thoth-station/ps-nlp?style=plastic
   :target: https://github.com/thoth-station/ps-nlp/releases
