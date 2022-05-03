@@ -10,12 +10,17 @@ spacy = "*"
 keras = "*"
 transformers = "*"
 tensorflow = ">=2.0.0"
-jupyter-tensorboard = "*"
+jupyter-tensorboard = "==0.1.1"
 
 [dev-packages]
+
+[pipenv]
+allow_prereleases = true
 
 [requires]
 python_version = "3.8"
 
-[pipenv]
-allow_prereleases = true
+[thoth]
+disable_index_adjustment = false
+
+[thoth.allow_prereleases]
