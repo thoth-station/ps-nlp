@@ -39,10 +39,6 @@ managers:
   - name: info
   - name: version
     configuration:
-      maintainers:
-        - goern
-        - harshad16
-        - pacospace
       assignees:
         - sesheta
       labels: [bot]

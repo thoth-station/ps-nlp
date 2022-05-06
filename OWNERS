@@ -1,9 +1,9 @@
 # See the OWNERS docs at https://go.k8s.io/owners
 
 approvers:
+  - codificat
   - goern
-  - pacospace
+  - harshad16
 reviewers:
-  - goern
-  - pacospace
+  - codificat
   - harshad16
