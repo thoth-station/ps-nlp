@@ -4,7 +4,7 @@ overlays_dir: overlays
 overlays:
   - name: ps-nlp
     build:
-      base-image: "quay.io/thoth-station/s2i-generic-data-science-notebook:v0.0.5"
+      base-image: "quay.io/thoth-station/s2i-generic-data-science-notebook:v0.2.0"
       build-stratergy: Source
       registry: quay.io
       registry-org: thoth-station
@@ -13,7 +13,7 @@ overlays:
 
   - name: ps-nlp-pytorch
     build:
-      base-image: "quay.io/thoth-station/s2i-generic-data-science-notebook:v0.0.5"
+      base-image: "quay.io/thoth-station/s2i-generic-data-science-notebook:v0.2.0"
       build-stratergy: Source
       registry: quay.io
       registry-org: thoth-station
@@ -22,7 +22,7 @@ overlays:
 
   - name: ps-nlp-tensorflow
     build:
-      base-image: "quay.io/thoth-station/s2i-generic-data-science-notebook:v0.0.5"
+      base-image: "quay.io/thoth-station/s2i-generic-data-science-notebook:v0.2.0"
       build-stratergy: Source
       registry: quay.io
       registry-org: thoth-station
