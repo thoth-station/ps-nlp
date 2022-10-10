@@ -33,7 +33,7 @@ runtime_environments:
     recommendation_type: latest
 
 managers:
-  - name: thoth-advise
+  - name: update
     disallow:
     - ps-nlp-tensorflow-gpu
     - ps-nlp-pytorch
