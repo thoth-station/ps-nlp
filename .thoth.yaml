@@ -34,8 +34,11 @@ runtime_environments:
 
 managers:
   - name: thoth-advise
-    allow:
+    disallow:
     - ps-nlp-tensorflow-gpu
+    - ps-nlp-pytorch
+    allow:
+    - ps-nlp-tensorflow
     configuration:
       labels: [bot]
 #   - name: info
