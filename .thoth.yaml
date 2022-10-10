@@ -34,12 +34,14 @@ runtime_environments:
 
 managers:
   - name: thoth-advise
+  	allow:
+	    - ps-nlp-tensorflow-gpu
     configuration:
       labels: [bot]
-  - name: info
-  - name: version
-    configuration:
-      assignees:
-        - sesheta
-      labels: [bot]
-      changelog_file: true
+#   - name: info
+#   - name: version
+#     configuration:
+#       assignees:
+#         - sesheta
+#       labels: [bot]
+#       changelog_file: true
