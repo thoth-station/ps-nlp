@@ -36,7 +36,7 @@ managers:
   - name: thoth-advise
     configuration:
       labels: [bot]
-    disallow:
+    allow:
       - ps-nlp-tensorflow-gpu
   - name: info
   - name: version
