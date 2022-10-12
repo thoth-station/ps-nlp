@@ -39,6 +39,11 @@ managers:
     - ps-nlp-pytorch
     configuration:
       labels: [bot]
+  - name: thoth-advise
+    allow:
+    - ps-nlp
+    configuration:
+      labels: [bot]
 #   - name: info
 #   - name: version
 #     configuration:
