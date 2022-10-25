@@ -34,13 +34,13 @@ runtime_environments:
 
 managers:
   - name: update
-    disallow:
+    env_disallow_list:
     - ps-nlp-tensorflow-gpu
     - ps-nlp-pytorch
     configuration:
       labels: [bot]
   - name: thoth-advise
-    allow:
+    env_allow_list:
     - ps-nlp
     configuration:
       labels: [bot]
